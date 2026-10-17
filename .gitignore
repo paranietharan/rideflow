@@ -1,0 +1,9 @@
+# Environment files
+.env
+
+# Binaries & build artifacts
+bin/
+dist/
+
+# OS metadata
+.DS_Store
