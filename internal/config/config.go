@@ -22,7 +22,7 @@ func Load() *Config {
 		AppEnv:      getEnv("APP_ENV", "development"),
 		MongoURI:    getEnv("MONGO_URI", "mongodb://localhost:27017"),
 		MongoDBName: getEnv("MONGO_DB_NAME", "rideflow"),
-		JWTSecret:   getEnv("JWT_SECRET", "rideflow-dev-secret-key"),
+		JWTSecret:   getEnv("JWT_SECRET", "SnYhTp644rWJtyCWM31ForvbGirDeFYExnCqeasnFQc"),
 	}
 }
 

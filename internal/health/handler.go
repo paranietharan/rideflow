@@ -17,6 +17,7 @@ type Handler struct {
 func NewHandler(mongo *mongodb.Client) *Handler {
 	return &Handler{mongo: mongo}
 }
+
 func (h *Handler) Routes() chi.Router {
 	r := chi.NewRouter()
 	r.Get("/healthz", h.Liveness)
